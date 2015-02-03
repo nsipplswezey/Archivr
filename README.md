@@ -41,11 +41,12 @@ From within the root directory:
 npm install
 gulp build-development
 
-# Run in separate tabs
+# Run in separate tab
 # If it's your first time using mongo, see 
 # http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+# set your mongo db path to server/db
+mongod --dbpath server/db
 
-mongod
 nodemon server/index.js
 ```
 
