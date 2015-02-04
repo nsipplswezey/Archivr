@@ -29,6 +29,7 @@
 - npm
 - Ruby
 - Bundler (`$ gem install bundler`)
+- Compass (`$ gem install compass`)
 - MongoDB
 
 ## Development
