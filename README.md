@@ -28,8 +28,8 @@
 - Node
 - npm
 - Ruby
-- Bundler (`$ gem install bundler`)
-- Compass (`$ gem install compass`)
+- Bundler
+- Compass
 - MongoDB
 
 ## Development
@@ -39,7 +39,10 @@
 From within the root directory:
 
 ```sh
+gem install bundler
+gem install compass
 npm install
+bundler install
 gulp build-development
 
 # Run in separate tab
